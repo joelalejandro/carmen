@@ -2,7 +2,7 @@
   "name": "she-is-carmen",
   "version": "0.0.4",
   "description": "A TypeScript-driven poetess.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "types": "types/carmen.d.ts",
   "repository": "git@github.com:joelalejandro/carmen",
   "author": "Joel Alejandro Villarreal Bertoldi <joel.a.villarreal@gmail.com>",
