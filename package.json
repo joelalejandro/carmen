@@ -1,0 +1,29 @@
+{
+  "name": "she-is-carmen",
+  "version": "0.0.1",
+  "description": "A TypeScript-driven poetess.",
+  "main": "src/index.ts",
+  "types": "types/carmen.d.ts",
+  "repository": "git@github.com:joelalejandro/carmen",
+  "author": "Joel Alejandro Villarreal Bertoldi <joel.a.villarreal@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf dist/ && tsc -b",
+    "carmen:write": "tsnd src/write-poem.ts",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "rhymes": "^1.0.2"
+  }
+}
