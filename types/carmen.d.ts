@@ -11,7 +11,7 @@ declare class Poetess {
   getWords(...sets: WordSet[]): string[];
   writeLine(template?: string): Line;
   thinkRhymableLine(template: string): RhymableLine;
-  writeBalladStanza(format: BalladStanzaFormat): Stanza;
+  writeBalladStanza(format?: BalladStanzaFormat): Stanza;
 }
 
 export { BalladStanzaFormat, Line, RhymableLine, Stanza, Vocabulary };
