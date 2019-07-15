@@ -14,5 +14,5 @@ declare class Poetess {
   writeBalladStanza(format?: BalladStanzaFormat): Stanza;
 }
 
-export { BalladStanzaFormat, Line, RhymableLine, Stanza, Vocabulary };
+export { BalladStanzaFormat, Line, RhymableLine, Stanza, Vocabulary, WordSet };
 export = Poetess;
