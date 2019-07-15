@@ -15,4 +15,5 @@ declare class Poetess {
 }
 
 export { BalladStanzaFormat, Line, RhymableLine, Stanza, Vocabulary, WordSet };
+export default Poetess;
 export = Poetess;
